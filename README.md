@@ -15,9 +15,11 @@ https://www.kaggle.com/code/samyukthamobile/car-damage-detection/input
 
 # Estructura (descripción de cada campo).
 dataset_siniestros_procesado.csv, contiene 2 campos :
-Campo       Tipo de Dato	            Función
-filename	  Cadena de texto (string)	Identificador del archivo de imagen.
-label_real	Cadena de texto (string)	Categoría del tipo de daño del vehículo.
+
+| Campo | Tipo de Dato | Función |
+| :--- | :--- | :--- |
+| `filename` | Cadena de texto (`string`) | Identificador del archivo analizado. |
+| `label_real` | Cadena de texto (`string`) | Categoría del tipo de daño del vehículo. |
 
 El dataset contiene 390 imagenes con su correspondiente XML, siendo un total de 780 archivos contenidos en valid.zip el cual está anexo en este repositorio.
 
@@ -25,8 +27,7 @@ El dataset contiene 390 imagenes con su correspondiente XML, siendo un total de 
 Debemos descargar el archivo zip "valid.zip" en el equipo, para utilizarlo en el script Actividad_4_entrega.IPYNB de comparación de modelos, lo descargamos en cualquier carpeta para despues seleccionarlo en la ejecución de la celda de código "Carga de modelos y datasets", este proceso se realiza en Google Colab y se explica paso a paso a continuación:
 
 # Entorno de ejcución
-Google Colab
-Se requiere conexión a Hugging Face
+Google Colab, se requiere conexión a Hugging Face.
 
 # Pasos de ejecución
 
